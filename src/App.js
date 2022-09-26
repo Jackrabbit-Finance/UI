@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo512.png" />
         <p>
-          AAVE<code> ON</code> MOONBEAM.
+          Jackrabbit<code> Finance</code> Exchange.
         </p>
         <a
           className="App-link"
@@ -15,29 +15,32 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Lending and Borrowing - USDC
+          Cross-Chain Swaps
 
         </a>
         
-        <form>
-         <label>
-          Enter USDC Pool:
-          <input type="text" name="pool" />
-        </label>
-         <input type="submit" value="Submit" />
-        </form>
+        <a
+          className="App-link"
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Access AAVE Through Moonbeam
 
-        <form>
-         <label>
-          Flash Loan amount:
-          <input type="text" name="amount" />
-        </label>
-         <input type="submit" value="Submit" />
-        </form>
-        
+        </a>
+        <a
+          className="App-link"
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          On-Chain Bonds
+
+        </a> 
       </header>
     </div>
   );
 }
 
 export default App;
+
