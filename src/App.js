@@ -7,7 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo512.png" />
         <p>
-          Jackrabbit<code> Finance</code> Exchange.
+          Jackrabbit<code> DeFi-Bond</code> Exchange.
+        </p>
+        <p>
+          Enter APP Below
         </p>
         <a
           className="App-link"
@@ -25,7 +28,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Access AAVE Through Moonbeam
+          Bonds on FVM
 
         </a>
         <a
@@ -34,7 +37,16 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          On-Chain Bonds
+          Bonds on Moonbeam
+
+        </a>
+        <a
+          className="App-link"
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Documents
 
         </a> 
       </header>
@@ -43,4 +55,3 @@ function App() {
 }
 
 export default App;
-
