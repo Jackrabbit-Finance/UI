@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo512.png" />
         <p>
-          Jackrabbit<code> DeFi-Bond</code> Exchange.
+          Decentralized<code> Bond </code> Exchange
         </p>
         <p>
           Enter APP Below
@@ -28,28 +28,27 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Bonds on FVM
+          Pools and Bonds
 
         </a>
+    
         <a
           className="App-link"
           href=""
           target="_blank"
           rel="noopener noreferrer"
         >
-          Bonds on Moonbeam
-
-        </a>
-        <a
-          className="App-link"
-          href=""
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Documents
+          Documentation
 
         </a> 
       </header>
+      <h1>
+        <div class="team-info">
+            <img src="img-2.jpg" alt="" width="300" height="300"/>
+            <h4>Filecoin Virtual Machine</h4>
+             <p>Deployed on FVM, the virtual machine that allows your applications to interact with the Filecoin Network.</p>
+        </div>
+      </h1>
     </div>
   );
 }
