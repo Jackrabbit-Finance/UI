@@ -14,7 +14,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href=""
+          href="https://falling-rice-7109.on.fleek.co/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -34,7 +34,7 @@ function App() {
     
         <a
           className="App-link"
-          href=""
+          href="https://github.com/Jackrabbit-Finance"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -42,13 +42,16 @@ function App() {
 
         </a> 
       </header>
-      <h1>
+      <h2>
         <div class="team-info">
             <img src="img-2.jpg" alt="" width="300" height="300"/>
-            <h4>Filecoin Virtual Machine</h4>
-             <p>Deployed on FVM, the virtual machine that allows your applications to interact with the Filecoin Network.</p>
+            <h4>What you can do in the JRT App</h4>
+             <p>1) Create liquidity pools</p>
+             <p>2) Provide liquidity</p>
+             <p>3) Swap digital assets</p>
+             <p>4) Buy and stake into Bonds</p>
         </div>
-      </h1>
+      </h2>
     </div>
   );
 }
