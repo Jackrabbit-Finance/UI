@@ -10,7 +10,7 @@ function App() {
           Decentralized<code> Bond </code> Exchange
         </p>
         <p>
-          Enter APP Below
+          Buy/Stake into Bonds, Add Liquidity, Swap Tokens
         </p>
         <a
           className="App-link"
@@ -22,13 +22,24 @@ function App() {
 
         </a>
         
+        
         <a
           className="App-link"
           href="https://dawn-water-3129.on.fleek.co/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Pools and Bonds
+          Pools
+
+        </a>
+
+        <a
+          className="App-link"
+          href="https://dawn-water-3129.on.fleek.co/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Bonds
 
         </a>
     
@@ -42,16 +53,7 @@ function App() {
 
         </a> 
       </header>
-      <h2>
-        <div class="team-info">
-            <img src="img-2.jpg" alt="" width="300" height="300"/>
-            <h4>What you can do in the JRT App</h4>
-             <p>1) Create liquidity pools</p>
-             <p>2) Provide liquidity</p>
-             <p>3) Swap digital assets</p>
-             <p>4) Buy and stake into Bonds</p>
-        </div>
-      </h2>
+     
     </div>
   );
 }
