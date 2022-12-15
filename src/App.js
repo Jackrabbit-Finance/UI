@@ -5,54 +5,35 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Jackrabbit Finance</h1>
         <img src={logo} className="App-logo" alt="logo512.png" />
         <p>
           Decentralized<code> Bond </code> Exchange
         </p>
-        <p>
-          Buy/Stake into Bonds, Add Liquidity, Swap Tokens
-        </p>
-        <a
+          <a
           className="App-link"
-          href="https://falling-rice-7109.on.fleek.co/"
+          href="https://twilight-frog-0992.on.fleek.co/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Cross-Chain Swaps
+          LAUNCH APP
 
         </a>
-        
-        
-        <a
-          className="App-link"
-          href="https://dawn-water-3129.on.fleek.co/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Pools
+        <p>(beta testnet)</p>
 
-        </a>
 
-        <a
-          className="App-link"
-          href="https://dawn-water-3129.on.fleek.co/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Bonds
+        <h2>Merging DeFi and Provable Storage on FVM</h2>
+          <p>
+            <li><a className="App-link" href="https://falling-rice-7109.on.fleek.co/">Cross-chain Swaps</a></li>
+            <li><a className="App-link" href="https://twilight-frog-0992.on.fleek.co/">Liquidity Pools</a></li>
+            <li><a className="App-link" href="https://explorer.glif.io/tx/0x52a7696fe80b01fb99e7998008fbfe10fa82321b68f71bc500b73f4721febd16/?network=wallaby">Bonds</a></li>
+          </p>
 
-        </a>
-    
-        <a
-          className="App-link"
-          href="https://github.com/Jackrabbit-Finance"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Documentation
 
-        </a> 
+
+       
       </header>
+
      
     </div>
   );
